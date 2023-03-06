@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+<!--        <item name="android:navigationBarColor">@color/primary</item>-->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="fontFamily">@font/roboto</item>
+
+        <item name="textInputStyle">@style/AppTheme.TextInputLayout</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/colorPrimaryDark</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="AppTheme.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeColor">@color/colorAccent</item>
+        <item name="elevation">4dp</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorPrimaryDark</item>
+        <item name="hintTextColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHighlight">@color/colorAccent</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>
